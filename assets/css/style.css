@@ -1,0 +1,135 @@
+/* overall styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* makes background light grey */
+body {
+    background-color: #d9dcd6;
+}
+
+/* affects the navigation bar */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* company name */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* titles under section tag */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* titles under aside tag */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* larger line in footer */
+h4 {
+    font-size: 20px;
+}
+
+/* grey letters in company name */
+span {
+    color: #d9dcd6;
+}
+
+/* navigation bar styling */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* navigation items specifics */
+nav ul, nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* section images sized down */
+section img {
+    max-height: 200px;
+}
+
+/* 3 main sections */
+section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* right hand column */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* centered footer */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* edits links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* basic paragraph font size */
+p {
+    font-size: 16px;
+}
+
+/* hero image styling and position */
+picture img {
+    width: 100%;
+    height: 800px;
+}
+
+/* right hand column styling */
+.benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* icons in right column */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* 3 main sections */
+.categories {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
