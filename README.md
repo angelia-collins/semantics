@@ -1,5 +1,6 @@
 ## semantics
 Edited for semantics.
+Alt tags added, CSS condensed and commented on. Background image moved to HTML to add alt tag.
 
 ## Mock-Up
 
